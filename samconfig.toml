@@ -8,5 +8,5 @@ s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-kgz59zry9vyv"
 s3_prefix = "j-groups"
 confirm_changeset = false
 capabilities = "CAPABILITY_IAM"
-disable_rollback = true
+disable_rollback = false
 image_repositories = []
