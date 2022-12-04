@@ -18,9 +18,9 @@ Resources:
       CodeUri: groups/
       Handler: groups
       Runtime: go1.x
-      AutoPublishAlias: live
-      DeploymentPreference:
-        Type: Canary10Percent5Minutes
+      #AutoPublishAlias: live
+      #DeploymentPreference:
+      #  Type: Canary10Percent5Minutes
       Architectures:
         - x86_64
       Events:
