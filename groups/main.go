@@ -41,7 +41,7 @@ func handler(request events.APIGatewayProxyRequest) (events.APIGatewayProxyRespo
 	}
 
 	return events.APIGatewayProxyResponse{
-		Body:       fmt.Sprintf("Using Canary: %v", string(ip)),
+		Body:       fmt.Sprintf("Groups: %v", string(ip)),
 		StatusCode: 200,
 	}, nil
 }
